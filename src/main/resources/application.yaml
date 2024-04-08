@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: boutiqueDaTete
+  data:
+    mongodb:
+      host: localhost
+      port: 27017 # Porta padrão do MongoDB
+      database: boutique-da-tete
+
+server:
+  servlet:
+    context-path: /boutique-da-tete-api
+  port: 8080 # Porta que sua aplicação Spring Boot irá escutar
